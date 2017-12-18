@@ -5,7 +5,7 @@
   
   <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
   <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2017-12-18T18:26:09+01:00</updated>
+  <updated>2017-12-18T19:17:00+01:00</updated>
   <id>http://localhost:4000//</id>
 
   
@@ -22,44 +22,58 @@
   
     <entry>
       
-      <title type="html">Welcome to Jekyll!</title>
+      <title type="html">Is they are really Iridium?</title>
       
-      <link href="http://localhost:4000/jekyll/update/2017/12/11/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" />
-      <published>2017-12-11T23:47:40+01:00</published>
-      <updated>2017-12-11T23:47:40+01:00</updated>
-      <id>http://localhost:4000/jekyll/update/2017/12/11/welcome-to-jekyll</id>
-      <content type="html" xml:base="http://localhost:4000/jekyll/update/2017/12/11/welcome-to-jekyll.html">&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+      <link href="http://localhost:4000/2017/09/22/Tipping-Material-of-Preppy.html" rel="alternate" type="text/html" title="Is they are really Iridium?" />
+      <published>2017-09-22T00:00:00+02:00</published>
+      <updated>2017-09-22T00:00:00+02:00</updated>
+      <id>http://localhost:4000/2017/09/22/Tipping%20Material%20of%20Preppy</id>
+      <content type="html" xml:base="http://localhost:4000/2017/09/22/Tipping-Material-of-Preppy.html">&lt;p&gt;Before start, I should emphasize this. Platinum, manufacturer of Preppy &lt;strong&gt;NEVER&lt;/strong&gt; said tipping material is Iridium or its alloy. I’m just wonder to know Preppy tipping material is really ‘Iridium’.&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;h2 id=&quot;when-i-was-young&quot;&gt;When I was young…&lt;/h2&gt;
+&lt;figure&gt;
+&lt;img src=&quot;./files/20170922/preppy.jpg&quot; width=&quot;250&quot; /&gt;
+&lt;figcaption&gt;&lt;b&gt;fig 1.&lt;/b&gt; My third fountain pen, Preppy.&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;When I was young, I have some ‘fantasies’ for fountain pens. Always I want to buy a fountain pen, but that doesn’t come into my life till I paid from KIST as Research Assistant. The first payday was the first day that I have enough money to use for wanted stuff, fountain pen. My first fountain pen was ‘Olika’ made from the Monami company. Next, I’ve bought ‘Fountain Pen’ from Morning Glory, and ‘Preppy’ from Platinum. Now I am settled in Lamy 2000, but fountain pen is still interesting stuff for me in another aspect.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;h2 id=&quot;nib-of-fountain-pen&quot;&gt;Nib of fountain pen&lt;/h2&gt;
+&lt;p&gt;Like an X-Ray source in XRD, the nib of a fountain pen is really essential part to write something in papers. They should be bent easily, but highly abrasion resistant. Those properties are a tradeoff for each other. If we use strong materials like a W to abrasion resistant, Nib doesn’t bend, so the performance of pen goes dark side. But if we use soft materials like an Au or its alloy, it gives a really good performance for writing but it easily worn away.&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;The engineers who were enthusiastic to enhance the performance of fountain pen found clever solution to combine two properties. They used ‘tipping material’ with very high hardness and wear-resistant properties to cover-up tip of nib. Tipping materials sometimes called ‘Iridium’ even they don’t contain Iridium as their composition. Also, they are widely known as consists with Osmium, Rhenium or its alloy. Due to manufacturer does not disclose composition or materials they used, I always want to know they really consist with Iridium or Platinum, or something that similar like Rhenium or Osmium. Yes, to be honest, I thought ‘Preppy’ nib is tipped with some platinum metals. &lt;a href=&quot;https://www.nibs.com/blog/nibster-writes/wheres-iridium&quot;&gt;The analysis that investigates tipping materials that produced within 1920~1930&lt;/a&gt; also support my ‘guess’ mentioned above.&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content>
+&lt;h2 id=&quot;electron-analysis-for-preppy&quot;&gt;Electron Analysis for Preppy&lt;/h2&gt;
+&lt;figure&gt;
+&lt;img src=&quot;./files/20170922/eds_map_tipping-material.png&quot; /&gt;
+&lt;figcaption&gt;&lt;b&gt;fig 2.&lt;/b&gt; EDS mapping result on tipping material of Preppy fountain pen.&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-      
-      
-      
-      
-      
+&lt;p&gt;Hitachi S-4300SE Field Emission SEM equipped Quantax 400 package is used to EDS analysis. Image acquisition performed in 15kV acceleration voltage, 15mm as analytic working distance.&lt;/p&gt;
 
-      
+&lt;p&gt;The results were very interested in me. I thought it is composed of platinum metals, but EDS result suggests it is cermet or similar kind of material. EDS spectra show matrix composed of Nickel, dispersoid composed of Chromium and Nitrogen. This proposes tipping material is composite of Chromium Nitride and Nickel alloy. I am not sure matrix is pure nickel or alloy because of peak overlap by large interaction volume of EDS analysis.&lt;/p&gt;
 
-      
-        <category term="jekyll" />
-      
-        <category term="update" />
-      
+&lt;h2 id=&quot;result&quot;&gt;Result&lt;/h2&gt;
+&lt;figure&gt;
+&lt;img src=&quot;./files/20170922/eds_specrum_tipping-material.png&quot; /&gt;
+&lt;figcaption&gt;&lt;b&gt;fig 3.&lt;/b&gt; EDS spectrum for specific point on tipping material.&lt;/figcaption&gt;
+&lt;/figure&gt;
 
-      
+&lt;p&gt;Yes, it wasn’t ‘Iridium’ or other precious metal. In fact, it was a composite with Chromium Nitride and Nickel is an exceptionally good choice for obtaining good properties of a tip in practical aspect.&lt;/p&gt;</content>
 
       
-        <summary type="html">You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.</summary>
+      
+      
+      
+      
+
+      
+
+      
+
+      
+
+      
+        <summary type="html">Before start, I should emphasize this. Platinum, manufacturer of Preppy NEVER said tipping material is Iridium or its alloy. I’m just wonder to know Preppy tipping material is really ‘Iridium’.</summary>
       
 
       
