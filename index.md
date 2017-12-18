@@ -3,15 +3,15 @@ layout: home
 title: Recipe Exploration | Yummly Analystics
 ---
 
-<link href="/stylesheets/c3.min.css" rel="stylesheet" />
-<script src="/scripts/d3.min.js" charset="utf-8"></script>
-<script src="/scripts/c3.min.js"></script>
-<script src="/scripts/underscore-min.js"></script>
+<link href="{{site.baseurl}}/stylesheets/c3.min.css" rel="stylesheet" />
+<script src="{{site.baseurl}}/scripts/d3.min.js" charset="utf-8"></script>
+<script src="{{site.baseurl}}/scripts/c3.min.js"></script>
+<script src="{{site.baseurl}}/scripts/underscore-min.js"></script>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-<script src="/scripts/sigma.min.js"></script>
-<script src="/scripts/sigma.layout.forceAtlas2.min.js"></script>
-<script src="/scripts/sigma.parsers.json.min.js"></script>
+<script src="{{site.baseurl}}scripts/sigma.min.js"></script>
+<script src="{{site.baseurl}}/scripts/sigma.layout.forceAtlas2.min.js"></script>
+<script src="{{site.baseurl}}/scripts/sigma.parsers.json.min.js"></script>
 
 <style>
 #select-meat{
@@ -72,7 +72,7 @@ Yummly provides a variety of recipes along with their ingredients and nutritiona
 Let’s dive into data!
 
 <center>
-	<img src="/assets/yummly_homepage.png" style="margin-bottom:20px">
+	<img src="{{site.baseurl}}/assets/yummly_homepage.png" style="margin-bottom:20px">
 </center>
 
 ## Ingredients
@@ -80,7 +80,7 @@ Our dataset contains a variety of cuisines representing different regions around
 
 <center>
 	<h4>Most used ingredients in the world</h4>
-	<img src="/assets/wc_ing.png" style="margin-bottom:20px">
+	<img src="{{site.baseurl}}/assets/wc_ing.png" style="margin-bottom:20px">
 </center>
 
 As expected, spices like salt/pepper is very common across all cuisines.
@@ -89,7 +89,7 @@ Our curiosity leads us to explore cuisines by characteirizing them with their di
 While it's hardly fair to stereotype an entire national cuisine with a few basic ingredients – most are of course just far too varied and diverse – it is hard to deny some flavours evoke dishes from certain parts of the world. Indeed, it is not unknown for countries to almost be defined by their "iconic dishes”.  Here is what data says:
 
 <center>
-	<img src="/assets/most_used_ing.jpg" style="margin-bottom:20px;width:420px;">
+	<img src="{{site.baseurl}}/assets/most_used_ing.jpg" style="margin-bottom:20px;width:420px;">
 </center>
 
 
@@ -117,7 +117,7 @@ explore the confusion between recipes of different cuisine. For this purpose, we
 
 <center>
 	<h4> Similarities between cuisines </h4>
-	<img src="/assets/confused_sankey.png">
+	<img src="{{site.baseurl}}/assets/confused_sankey.png">
 </center>
 
 As expected, we observe similar results, with :
@@ -148,7 +148,7 @@ The results can be explained by the the fact that cuisines mostly use ressources
 > ***Fun fact: Who is Avocado's biggest fan?***
 >
 > *Over the last decade, worldwide comsumption of avocado has tripled showing a high interest in this fruit. Let's find out from our data what cuisine use it the most:
-<img src="/assets/avocado_freq.png">*
+<img src="{{site.baseurl}}/assets/avocado_freq.png">*
 
 
 ## Cooking Time
@@ -156,7 +156,7 @@ Another interesting variable to study when talking about recipes is their corres
 
 <center>
 	<h4> Cooking time in cuisines </h4>
-	<img src="/assets/cooking_time.png">
+	<img src="{{site.baseurl}}/assets/cooking_time.png">
 	(Agrandir x/y label)
 </center>
 
@@ -299,10 +299,10 @@ For more details concerning the implementation of our analysis, please refer to 
 								   .style('bottom', '0px');
 	}
 	window.onload = function(){
-		d3.json("/assets/recipes_tsne.json", function(error, data) {
+		d3.json("{{site.baseurl}}/assets/recipes_tsne.json", function(error, data) {
 		    plot_cluster('chart', data)
 		});
-		d3.json("/assets/meat-o-meter.json", function(error, data){
+		d3.json("{{site.baseurl}}/assets/meat-o-meter.json", function(error, data){
 			_.each(data, function(v,k){
 				v['x'] = v['x'].reverse()
 				v['y'] = v['y'].reverse()
@@ -310,11 +310,11 @@ For more details concerning the implementation of our analysis, please refer to 
 			plot_meatometer('meat-o-meter', data, 'Salmon');
 			plot_meat_selector('meat-selector', data);
 		});
-		d3.json("/assets/similar-recipes.json", function(error, data){
+		d3.json("{{site.baseurl}}/assets/similar-recipes.json", function(error, data){
 			show_recipe_selector(data);
 			// show_recipe('meat-selector', data);
 		});
-		sigma.parsers.json( "/assets/network_ing.json",
+		sigma.parsers.json( "{{site.baseurl}}/assets/network_ing.json",
 
 		  {container: 'network-graph'});
 		append_legend_network();
