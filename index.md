@@ -9,7 +9,7 @@ title: Recipe Exploration | Yummly Analystics
 <script src="{{site.baseurl}}/scripts/underscore-min.js"></script>
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
-<script src="{{site.baseurl}}scripts/sigma.min.js"></script>
+<script src="{{site.baseurl}}/scripts/sigma.min.js"></script>
 <script src="{{site.baseurl}}/scripts/sigma.layout.forceAtlas2.min.js"></script>
 <script src="{{site.baseurl}}/scripts/sigma.parsers.json.min.js"></script>
 
