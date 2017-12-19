@@ -107,7 +107,7 @@ Although distinctive ingredients distinguish well enough a cuisine, we often thi
 	<div id="network-graph"></div>
 </div>
 
-The bove network was based on the frequency of pairwise combinations of ingredients using [TF-IDF](#cosine-sim) algorithm. (**TODO**)
+The bove network was based on the frequency of pairwise combinations of ingredients using their respective frequencies.
 
 In many cuisines, ingredients orbit around a central ingredient: *Fish sauce* for Thai food, *Enchilada Sauce* for Mexican or *Gram masala* for Indian. Moreover, Asian cuisines like Chinese and Japanese share many ingredients as Italian and French do.
 
@@ -182,7 +182,7 @@ As we have now analysed resemblance between cuisines and their ingredients, we b
 As recipes don't match exactly in terms of ingredients, they will have a low similarity degree even though the images look alike.
 
 ## Summary
-From this project, we answered various questions by analysing our dataset. We needed to carefully explore and clean the data during which we faced challenges such as correcting the ingredients names and imputing missing values.  This helped us get satisfying answers, for instance finding the most iconic ingredients per cuisine, clustering recipes by region and recommending recipes.
+From this project, we answered various questions by analysing our dataset. Indeed, we establish similarities between cuisines, their mutual influences and finally characterized each with a set of distinctive components. To do so, we needed to carefully explore and clean the data during which we faced challenges such as correcting the ingredients names and dealing with duplicate values. Besides, we explored various techniques, some of which revealed good results and led to meaningful insights.
 
 ----------------
 
