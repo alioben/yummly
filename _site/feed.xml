@@ -3,10 +3,10 @@
   <generator uri="http://jekyllrb.com" version="3.6.2">Jekyll</generator>
   
   
-  <link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="http://localhost:4000/" rel="alternate" type="text/html" />
-  <updated>2017-12-18T19:24:13+01:00</updated>
-  <id>http://localhost:4000//</id>
+  <link href="http://localhost:4000/yummly/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/yummly/" rel="alternate" type="text/html" />
+  <updated>2017-12-19T12:22:08+01:00</updated>
+  <id>http://localhost:4000/yummly//</id>
 
   
     <title type="html">Yummly Analytics</title>
@@ -24,11 +24,11 @@
       
       <title type="html">Is they are really Iridium?</title>
       
-      <link href="http://localhost:4000/2017/09/22/Tipping-Material-of-Preppy.html" rel="alternate" type="text/html" title="Is they are really Iridium?" />
+      <link href="http://localhost:4000/yummly/2017/09/22/Tipping-Material-of-Preppy.html" rel="alternate" type="text/html" title="Is they are really Iridium?" />
       <published>2017-09-22T00:00:00+02:00</published>
       <updated>2017-09-22T00:00:00+02:00</updated>
-      <id>http://localhost:4000/2017/09/22/Tipping%20Material%20of%20Preppy</id>
-      <content type="html" xml:base="http://localhost:4000/2017/09/22/Tipping-Material-of-Preppy.html">&lt;p&gt;Before start, I should emphasize this. Platinum, manufacturer of Preppy &lt;strong&gt;NEVER&lt;/strong&gt; said tipping material is Iridium or its alloy. I’m just wonder to know Preppy tipping material is really ‘Iridium’.&lt;/p&gt;
+      <id>http://localhost:4000/yummly/2017/09/22/Tipping%20Material%20of%20Preppy</id>
+      <content type="html" xml:base="http://localhost:4000/yummly/2017/09/22/Tipping-Material-of-Preppy.html">&lt;p&gt;Before start, I should emphasize this. Platinum, manufacturer of Preppy &lt;strong&gt;NEVER&lt;/strong&gt; said tipping material is Iridium or its alloy. I’m just wonder to know Preppy tipping material is really ‘Iridium’.&lt;/p&gt;
 
 &lt;h2 id=&quot;when-i-was-young&quot;&gt;When I was young…&lt;/h2&gt;
 &lt;figure&gt;

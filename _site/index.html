@@ -13,11 +13,11 @@
   <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.">
   
 
-  <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="stylesheet" href="/yummly/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/yummly/">
   
   
-  <link rel="alternate" type="application/rss+xml" title="Yummly Analytics" href="http://localhost:4000/feed.xml">
+  <link rel="alternate" type="application/rss+xml" title="Yummly Analytics" href="http://localhost:4000/yummly/feed.xml">
 
   
 
@@ -55,15 +55,15 @@
 
   <div class="wrapper">
 
-    <a class="site-title" href="/">Yummly Analytics</a>
+    <a class="site-title" href="/yummly/">Yummly Analytics</a>
 
     <nav class="site-nav">
       
         
-        <a class="page-link" href="/about/">About</a>
+        <a class="page-link" href="/yummly/about/">About</a>
       
         
-        <a class="page-link" href="/archives/">Archives</a>
+        <a class="page-link" href="/yummly/archives/">Archives</a>
       
         
         <a class="page-link" href="https://github.com/yous/whiteglass">GitHub</a>
@@ -79,23 +79,23 @@
       <div class="wrapper">
         <div class="home">
 
-  <link href="/stylesheets/c3.min.css" rel="stylesheet" />
+  <link href="/yummly/stylesheets/c3.min.css" rel="stylesheet" />
 
-<script src="/scripts/d3.min.js" charset="utf-8"></script>
+<script src="/yummly/scripts/d3.min.js" charset="utf-8"></script>
 
-<script src="/scripts/c3.min.js"></script>
+<script src="/yummly/scripts/c3.min.js"></script>
 
-<script src="/scripts/underscore-min.js"></script>
+<script src="/yummly/scripts/underscore-min.js"></script>
 
 <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
 
-<script src="/scripts/sigma.min.js"></script>
+<script src="/yummly/scripts/sigma.min.js"></script>
 
-<script src="/scripts/sigma.layout.forceAtlas2.min.js"></script>
+<script src="/yummly/scripts/sigma.layout.forceAtlas2.min.js"></script>
 
-<script src="/scripts/sigma.parsers.json.min.js"></script>
+<script src="/yummly/scripts/sigma.parsers.json.min.js"></script>
 
 <style>
 #select-meat{
@@ -156,7 +156,7 @@ table td{
 <p>Let’s dive into data!</p>
 
 <center>
-	<img src="/assets/yummly_homepage.png" style="margin-bottom:20px" />
+	<img src="/yummly/assets/yummly_homepage.png" style="margin-bottom:20px" />
 </center>
 
 <h2 id="ingredients">Ingredients</h2>
@@ -164,7 +164,7 @@ table td{
 
 <center>
 	<h4>Most used ingredients in the world</h4>
-	<img src="/assets/wc_ing.png" style="margin-bottom:20px" />
+	<img src="/yummly/assets/wc_ing.png" style="margin-bottom:20px" />
 </center>
 
 <p>As expected, spices like salt/pepper is very common across all cuisines.
@@ -173,7 +173,7 @@ Our curiosity leads us to explore cuisines by characteirizing them with their di
 <p>While it’s hardly fair to stereotype an entire national cuisine with a few basic ingredients – most are of course just far too varied and diverse – it is hard to deny some flavours evoke dishes from certain parts of the world. Indeed, it is not unknown for countries to almost be defined by their “iconic dishes”.  Here is what data says:</p>
 
 <center>
-	<img src="/assets/most_used_ing.jpg" style="margin-bottom:20px;width:420px;" />
+	<img src="/yummly/assets/most_used_ing.jpg" style="margin-bottom:20px;width:420px;" />
 </center>
 
 <blockquote>
@@ -202,7 +202,7 @@ explore the confusion between recipes of different cuisine. For this purpose, we
 
 <center>
 	<h4> Similarities between cuisines </h4>
-	<img src="/assets/confused_sankey.png" />
+	<img src="/yummly/assets/confused_sankey.png" />
 </center>
 
 <p>As expected, we observe similar results, with :</p>
@@ -238,7 +238,7 @@ The results can be explained by the the fact that cuisines mostly use ressources
   <p><strong><em>Fun fact: Who is Avocado’s biggest fan?</em></strong></p>
 
   <p><em>Over the last decade, worldwide comsumption of avocado has tripled showing a high interest in this fruit. Let’s find out from our data what cuisine use it the most:
-<img src="/assets/avocado_freq.png" /></em></p>
+<img src="/yummly/assets/avocado_freq.png" /></em></p>
 </blockquote>
 
 <h2 id="cooking-time">Cooking Time</h2>
@@ -246,7 +246,7 @@ The results can be explained by the the fact that cuisines mostly use ressources
 
 <center>
 	<h4> Cooking time in cuisines </h4>
-	<img src="/assets/cooking_time.png" />
+	<img src="/yummly/assets/cooking_time.png" />
 	(Agrandir x/y label)
 </center>
 
@@ -393,10 +393,10 @@ In this section, we go through the methodology used to build different component
 								   .style('bottom', '0px');
 	}
 	window.onload = function(){
-		d3.json("/assets/recipes_tsne.json", function(error, data) {
+		d3.json("/yummly/assets/recipes_tsne.json", function(error, data) {
 		    plot_cluster('chart', data)
 		});
-		d3.json("/assets/meat-o-meter.json", function(error, data){
+		d3.json("/yummly/assets/meat-o-meter.json", function(error, data){
 			_.each(data, function(v,k){
 				v['x'] = v['x'].reverse()
 				v['y'] = v['y'].reverse()
@@ -404,11 +404,11 @@ In this section, we go through the methodology used to build different component
 			plot_meatometer('meat-o-meter', data, 'Salmon');
 			plot_meat_selector('meat-selector', data);
 		});
-		d3.json("/assets/similar-recipes.json", function(error, data){
+		d3.json("/yummly/assets/similar-recipes.json", function(error, data){
 			show_recipe_selector(data);
 			// show_recipe('meat-selector', data);
 		});
-		sigma.parsers.json( "/assets/network_ing.json",
+		sigma.parsers.json( "/yummly/assets/network_ing.json",
 
 		  {container: 'network-graph'});
 		append_legend_network();
@@ -438,7 +438,7 @@ In this section, we go through the methodology used to build different component
     <p>
       
 
-&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://localhost:4000/feed.xml">RSS</a>
+&copy;  - Powered by <a href="https://jekyllrb.com">Jekyll</a> &amp; <a href="https://github.com/yous/whiteglass">whiteglass</a> - Subscribe via <a href="http://localhost:4000/yummly/feed.xml">RSS</a>
 
     </p>
 
